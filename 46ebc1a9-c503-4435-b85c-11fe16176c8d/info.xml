@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info version="1.1">
+  <general>
+    <createDate>2014-05-27T09:36:50</createDate>
+    <changeDate>2015-02-03T13:16:17</changeDate>
+    <schema>iso19139.mcp-2.0</schema>
+    <isTemplate>false</isTemplate>
+    <localId>21938</localId>
+    <format>full</format>
+    <rating>0</rating>
+    <popularity>26</popularity>
+    <uuid>46ebc1a9-c503-4435-b85c-11fe16176c8d</uuid>
+    <siteId>5c6d6b45-1659-435c-91a7-4147caeed8a4</siteId>
+    <siteName>Catalogue for the 123 Portal</siteName>
+  </general>
+  <categories />
+  <privileges>
+    <group name="all">
+      <operation name="dynamic" />
+      <operation name="featured" />
+      <operation name="view" />
+      <operation name="download" />
+    </group>
+  </privileges>
+  <public />
+  <private />
+</info>
+

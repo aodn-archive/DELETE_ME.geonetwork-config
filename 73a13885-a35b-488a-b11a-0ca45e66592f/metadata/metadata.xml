@@ -1,0 +1,3484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<grg:RE_Register xmlns:grg="http://www.isotc211.org/2005/grg" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gnreg="http://geonetwork-opensource.org/register" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geonet="http://www.fao.org/geonetwork" xsi:schemaLocation="http://www.isotc211.org/2005/grg http://www.isotc211.org/2005/grg/grg.xsd http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gco http://www.isotc211.org/2005/gco/gco.xsd http://geonetwork-opensource.org/register http://geonetwork-opensource.org/schemas/register/register.xsd" uuid="73a13885-a35b-488a-b11a-0ca45e66592f">
+  <grg:name>
+    <gco:CharacterString>Australian Ocean Data Network units of measure register</gco:CharacterString>
+  </grg:name>
+  <grg:contentSummary>
+    <gco:CharacterString>This register contains controlled vocabulary for units of measure that will ultimately be available in MCP metadata. The controlled vocabulary will be used by the faceted search on the AODN/IMOS portal.</gco:CharacterString>
+  </grg:contentSummary>
+  <grg:uniformResourceIdentifier>
+    <gmd:CI_OnlineResource>
+      <gmd:linkage>
+        <gmd:URL>http://vocab.aodn.org.au/Australian Ocean Data Network units of measure register/1.0</gmd:URL>
+      </gmd:linkage>
+    </gmd:CI_OnlineResource>
+  </grg:uniformResourceIdentifier>
+  <grg:operatingLanguage>
+    <grg:RE_Locale>
+      <grg:name>
+        <gco:CharacterString>English</gco:CharacterString>
+      </grg:name>
+      <grg:language>
+        <gmd:LanguageCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#LanguageCode" codeListValue="eng" />
+      </grg:language>
+      <grg:country>
+        <gco:CharacterString>AU</gco:CharacterString>
+      </grg:country>
+      <grg:characterEncoding>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" />
+      </grg:characterEncoding>
+    </grg:RE_Locale>
+  </grg:operatingLanguage>
+  <grg:version>
+    <grg:RE_Version>
+      <grg:versionNumber>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </grg:versionNumber>
+      <grg:versionDate>
+        <gco:Date>2013-07-22</gco:Date>
+      </grg:versionDate>
+    </grg:RE_Version>
+  </grg:version>
+  <grg:dateOfLastChange>
+    <gco:Date>2013-07-22</gco:Date>
+  </grg:dateOfLastChange>
+  <grg:owner>
+    <grg:RE_RegisterOwner>
+      <grg:name>
+        <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+      </grg:name>
+      <grg:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Mancini, Sebastien</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+61 3 62 26 85 71</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>sebastien.mancini@utas.edu.au</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </grg:contact>
+    </grg:RE_RegisterOwner>
+  </grg:owner>
+  <grg:submitter>
+    <grg:RE_SubmittingOrganization>
+      <grg:name>
+        <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+      </grg:name>
+      <grg:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Mancini, Sebastien</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+61 3 62 26 85 71</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>sebastien.mancini@utas.edu.au</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </grg:contact>
+    </grg:RE_SubmittingOrganization>
+  </grg:submitter>
+  <grg:containedItemClass>
+    <grg:RE_ItemClass id="Item_Class">
+      <grg:name>
+        <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+      </grg:name>
+      <grg:technicalStandard>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2012-04-29</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </grg:technicalStandard>
+    </grg:RE_ItemClass>
+  </grg:containedItemClass>
+  <grg:manager>
+    <grg:RE_RegisterManager>
+      <grg:name>
+        <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+      </grg:name>
+      <grg:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Mancini, Sebastien</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+61 3 62 26 85 71</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>sebastien.mancini@utas.edu.au</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </grg:contact>
+    </grg:RE_RegisterManager>
+  </grg:manager>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>443</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Kilograms per cubic metre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/443</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>444</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Kilograms</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/444</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>442</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Watts per square metre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/442</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>429</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Degrees Celsius</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/429</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>430</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Degrees Kelvin</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/430</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>431</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Metres</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/431</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>432</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Seconds</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/432</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>433</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Metres per second</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/433</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>434</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>pH units</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/434</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>435</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Volts</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/435</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>436</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Hertz</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/436</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>437</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Litres</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/437</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>438</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Square metres</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/438</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>439</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Decibels</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/439</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>440</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Degrees</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/440</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>441</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Degrees True</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/441</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>445</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Decibars</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/445</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>446</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Percent</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/446</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>447</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Micromoles per litre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/447</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>448</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Dimensionless</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/448</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>449</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Number per square metre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/449</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>450</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Litres per minute</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/450</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>451</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Bytes</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/451</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>452</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Moles</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-18</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-18</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/452</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>481</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Practical Salinity Unit</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-09-09</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-09-09</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/481</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>482</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Siemens per centimetre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-09-09</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-09-09</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/482</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>483</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Siemens per metre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-09-09</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-09-09</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/483</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>484</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Number per cubic metre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-09-09</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-09-09</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/484</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>485</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Millilitres per litre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-09-09</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-09-09</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/485</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>486</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Microwatts per square centimetre per nanometre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-09-09</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-09-09</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/486</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>487</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Micromoles per kilogram</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-09-09</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-09-09</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/487</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>502</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Milligrams per cubic metre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-01</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-01</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/502</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>503</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Per metre per steradian</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-01</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-01</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/503</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>505</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Nephelometric Turbidity Units</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-01</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-01</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/505</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>506</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Hectapascals</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-01</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-01</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/506</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>507</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Millimetres</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-01</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-01</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/507</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>508</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Millimetres per hour</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-01</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-01</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/508</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>509</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Kilometres per hour</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-01</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-01</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/509</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>510</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Nanometres</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-01</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-01</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/510</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>511</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Millibars</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-01</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-01</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/511</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>512</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Microatmospheres</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-08</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-08</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/512</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>513</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Parts per million</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-08</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-08</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/513</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>564</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Parts per billion</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-11-01</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-11-01</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/564</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>563</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Milligrams per litre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-11-01</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-11-01</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/563</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>557</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Millimetres per minute</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-25</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-25</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/557</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>558</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Millilitres per minute</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-25</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-25</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/558</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>559</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Radians</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-10-25</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-10-25</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/559</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>585</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Micromoles per second per square metre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2014-01-08</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2014-01-08</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/585</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>586</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Knots (nautical miles per hour)</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2014-01-08</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2014-01-08</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/586</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>587</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Millimoles per cubic metre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2014-01-08</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2014-01-08</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/587</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>588</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Micrograms per litre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2014-01-15</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2014-01-15</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/588</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>593</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Kilograms per square metre per second</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2014-01-21</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2014-01-21</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/593</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>594</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Pascals</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2014-01-22</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2014-01-22</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/594</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>599</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Watts per square metre per nanometre</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2014-02-06</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2014-02-06</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/599</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>600</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Watts per square metre per nanometre per steradian</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2014-02-06</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2014-02-06</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/UnitOfMeasure/600</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+</grg:RE_Register>

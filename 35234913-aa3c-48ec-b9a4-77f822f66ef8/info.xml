@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info version="1.1">
+  <general>
+    <createDate>2010-05-21T12:08:53</createDate>
+    <changeDate>2015-03-05T19:09:26</changeDate>
+    <schema>iso19139.mcp-2.0</schema>
+    <isTemplate>false</isTemplate>
+    <localId>21854</localId>
+    <format>full</format>
+    <rating>0</rating>
+    <popularity>997</popularity>
+    <uuid>35234913-aa3c-48ec-b9a4-77f822f66ef8</uuid>
+    <siteId>5c6d6b45-1659-435c-91a7-4147caeed8a4</siteId>
+    <siteName>Catalogue for the 123 Portal</siteName>
+  </general>
+  <categories />
+  <privileges>
+    <group name="all">
+      <operation name="featured" />
+      <operation name="dynamic" />
+      <operation name="download" />
+      <operation name="view" />
+    </group>
+  </privileges>
+  <public>
+    <file name="ee5e8842-b110-45ec-a1dc-f5498f7d2d71_s.png" changeDate="2014-03-02T19:30:12" />
+    <file name="ee5e8842-b110-45ec-a1dc-f5498f7d2d71.png" changeDate="2014-03-02T19:30:12" />
+  </public>
+  <private>
+    <file name="Devil_Data_Formats.pdf" changeDate="2014-03-02T19:30:12" />
+  </private>
+</info>
+

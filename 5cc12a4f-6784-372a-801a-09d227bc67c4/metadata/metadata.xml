@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<grg:RE_Register xmlns:grg="http://www.isotc211.org/2005/grg" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gnreg="http://geonetwork-opensource.org/register" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geonet="http://www.fao.org/geonetwork" xsi:schemaLocation="http://www.isotc211.org/2005/grg http://www.isotc211.org/2005/grg/grg.xsd http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gco http://www.isotc211.org/2005/gco/gco.xsd http://geonetwork-opensource.org/register http://geonetwork-opensource.org/schemas/register/register.xsd" uuid="5cc12a4f-6784-372a-801a-09d227bc67c4">
+  <grg:name>
+    <gco:CharacterString>Australian Ocean Data Network analysis method register</gco:CharacterString>
+  </grg:name>
+  <grg:contentSummary>
+    <gco:CharacterString>This register contains controlled vocabulary for analysis method and sample preparation that will ultimately be available in MCP metadata. The controlled vocabulary will be used by the faceted search on the AODN/IMOS portal.</gco:CharacterString>
+  </grg:contentSummary>
+  <grg:uniformResourceIdentifier>
+    <gmd:CI_OnlineResource>
+      <gmd:linkage>
+        <gmd:URL>http://vocab.aodn.org.au/Australian Ocean Data Network analysis method register/1.0</gmd:URL>
+      </gmd:linkage>
+    </gmd:CI_OnlineResource>
+  </grg:uniformResourceIdentifier>
+  <grg:operatingLanguage>
+    <grg:RE_Locale>
+      <grg:name>
+        <gco:CharacterString>English</gco:CharacterString>
+      </grg:name>
+      <grg:language>
+        <gmd:LanguageCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#LanguageCode" codeListValue="eng" />
+      </grg:language>
+      <grg:country>
+        <gco:CharacterString>AU</gco:CharacterString>
+      </grg:country>
+      <grg:characterEncoding>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" />
+      </grg:characterEncoding>
+    </grg:RE_Locale>
+  </grg:operatingLanguage>
+  <grg:version>
+    <grg:RE_Version>
+      <grg:versionNumber>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </grg:versionNumber>
+      <grg:versionDate>
+        <gco:Date>2013-07-29</gco:Date>
+      </grg:versionDate>
+    </grg:RE_Version>
+  </grg:version>
+  <grg:dateOfLastChange>
+    <gco:Date>2013-07-29</gco:Date>
+  </grg:dateOfLastChange>
+  <grg:owner>
+    <grg:RE_RegisterOwner>
+      <grg:name>
+        <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+      </grg:name>
+      <grg:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Mancini, Sebastien</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+61 3 62 26 85 71</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>sebastien.mancini@utas.edu.au</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </grg:contact>
+    </grg:RE_RegisterOwner>
+  </grg:owner>
+  <grg:submitter>
+    <grg:RE_SubmittingOrganization>
+      <grg:name>
+        <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+      </grg:name>
+      <grg:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Mancini, Sebastien</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+61 3 62 26 85 71</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>sebastien.mancini@utas.edu.au</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </grg:contact>
+    </grg:RE_SubmittingOrganization>
+  </grg:submitter>
+  <grg:containedItemClass>
+    <grg:RE_ItemClass id="Item_Class">
+      <grg:name>
+        <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+      </grg:name>
+      <grg:technicalStandard>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2012-04-29</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </grg:technicalStandard>
+    </grg:RE_ItemClass>
+  </grg:containedItemClass>
+  <grg:manager>
+    <grg:RE_RegisterManager>
+      <grg:name>
+        <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+      </grg:name>
+      <grg:contact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Mancini, Sebastien</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>eMarine Information Infrastructure</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+61 3 62 26 85 71</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>sebastien.mancini@utas.edu.au</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </grg:contact>
+    </grg:RE_RegisterManager>
+  </grg:manager>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>476</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>filtration and acetone extraction</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-30</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString>Physical separation of the solid phase from a volume of water or air before the solid phase was mixed with acidified acetone to extract soluble compounds, usually plant pigments.</gco:CharacterString>
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-30</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/AnalysisMethod/476</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>477</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>high performance liquid chromatography (HPLC)</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-30</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString>A chromatographic technique for separating and analysing mixtures of substances, using a packed column containing microspheres coated with the stationary phase and where the mobile phase is pumped through the column with a high pressure pump. The emergence of each component of the sample under analysis from the column is monitored using one of a number of different detectors.</gco:CharacterString>
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-30</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/AnalysisMethod/477</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>479</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>equilibration with air, drying</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-30</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString>The dissolved gas content of the sample (water or sediment incorporating pore water) was brought into equilibrium with a restricted volume of air which was subsequently dried and analysed, giving the composition of the sample dissolved gas phase.</gco:CharacterString>
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-30</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/AnalysisMethod/479</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>480</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>constant temperature non-dispersive infra-red gas analysis</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-07-30</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString>Measurement in an instrument that simultaneously determines CO2 and water vapour concentrations in a gas mixture by measuring infra-red absorption</gco:CharacterString>
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-07-30</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/AnalysisMethod/480</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>578</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Hourly maximum</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-11-05</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-11-05</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/AnalysisMethod/578</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>579</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Hourly Mean</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-11-05</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-11-05</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/AnalysisMethod/579</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+  <grg:containedItem>
+    <gnreg:RE_RegisterItem gco:isoType="grg:RE_RegisterItem">
+      <grg:itemIdentifier>
+        <gco:Integer>580</gco:Integer>
+      </grg:itemIdentifier>
+      <grg:name>
+        <gco:CharacterString>Hourly minimum</gco:CharacterString>
+      </grg:name>
+      <grg:status>
+        <grg:RE_ItemStatus>valid</grg:RE_ItemStatus>
+      </grg:status>
+      <grg:dateAccepted>
+        <gco:Date>2013-11-05</gco:Date>
+      </grg:dateAccepted>
+      <grg:definition>
+        <gco:CharacterString />
+      </grg:definition>
+      <grg:additionInformation>
+        <grg:RE_AdditionInformation>
+          <grg:dateProposed>
+            <gco:Date>2013-11-05</gco:Date>
+          </grg:dateProposed>
+          <grg:justification gco:nilReason="missing">
+            <gco:CharacterString />
+          </grg:justification>
+          <grg:status>
+            <grg:RE_DecisionStatus>pending</grg:RE_DecisionStatus>
+          </grg:status>
+          <grg:sponsor gco:nilReason="missing" />
+        </grg:RE_AdditionInformation>
+      </grg:additionInformation>
+      <grg:itemClass>
+        <grg:RE_ItemClass>
+          <grg:name>
+            <gco:CharacterString>gnreg:RE_RegisterItem</gco:CharacterString>
+          </grg:name>
+          <grg:technicalStandard>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GeoNetwork Extension to RE_RegisterItem in ISO19135</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2012-04-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </grg:technicalStandard>
+        </grg:RE_ItemClass>
+      </grg:itemClass>
+      <gnreg:itemIdentifier>
+        <gco:CharacterString>http://vocab.aodn.org.au/collection/AnalysisMethod/580</gco:CharacterString>
+      </gnreg:itemIdentifier>
+    </gnreg:RE_RegisterItem>
+  </grg:containedItem>
+</grg:RE_Register>

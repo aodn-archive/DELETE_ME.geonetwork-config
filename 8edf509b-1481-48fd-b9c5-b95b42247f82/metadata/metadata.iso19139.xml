@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>8edf509b-1481-48fd-b9c5-b95b42247f82</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:parentIdentifier>
+    <gco:CharacterString>d52d1e34-b8e2-45d4-a684-be05cd681ef1</gco:CharacterString>
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>IMOS Sub-Facility level record</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>eMarine Information Infrastructure (eMII)</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>61 3 6226 7488</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>61 3 6226 8575</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>eMII Project</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>University of Tasmania</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Private Bag 21</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Hobart</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>Tasmania</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>7001</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>Australia</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>info@emii.org.au</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://imos.org.au/emii.html</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Website of the eMarine Information Infrastructure (eMII)</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2015-02-27T15:33:04</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:mcp="http://schemas.aodn.org.au/mcp-2.0" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:geonet="http://www.fao.org/geonetwork">
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:mcp="http://schemas.aodn.org.au/mcp-2.0" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:geonet="http://www.fao.org/geonetwork">
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>IMOS - Bio-Acoustic Ships of Opportunity (BA SOOP) sub-facility</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>Bio-acoustic ship data</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:DateTime>2011-09-28T00:00:00</gco:DateTime>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Integrated Marine Observing System (IMOS)</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>61 3 6226 7505</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>61 3 6226 2107</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Private Bag 110</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Hobart</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Tasmania</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>7001</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Australia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>imos@imos.org.au</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.imos.org.au/html</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:name gco:nilReason="missing">
+                        <gco:CharacterString />
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Website of the Integrated Marine Observing System (IMOS)</gco:CharacterString>
+                      </gmd:description>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>9am to 5pm UTC+10 Monday to Friday</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:otherCitationDetails>
+            <gco:CharacterString>The citation in a list of references is: "IMOS [year-of-data-downloaded], [Title], [data-access-url], accessed [date-of-access]"</gco:CharacterString>
+          </gmd:otherCitationDetails>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Overview: The IMOS Bio-Acoustic Ship Of Opportunity (BASOOP) sub-facility is part of a major international effort that aims to develop a global ocean Mid-trophic Automatic Acoustic Sampler (MAAS) being proposed as part of the CLimate Impacts on Oceanic TOp Predators (CLIOTOP) program. This SOOP dataset covers the Indian Ocean and waters south and east of Australia and across to New Zealand. BASOOP commenced on the 1st of July 2010 to collect underway acoustic data while vessels are transiting ocean basins. At present, nine vessels are participating in the BASOOP program. Six are commercial fishing vessels that have agreed to record data during transits to and from fishing grounds. The remaining three are scientific research vessels collecting underway acoustic data during transits and science operations. Bio acoustic signals allow understanding how mid-water prey species (known collectively as micronekton) such as small fish, squid, krill and jellyfish are distributed. Micronekton form the core of the ocean food web, transferring energy from primary producers at the ocean surface to top predators such as tunas, billfish, sharks, seals and seabirds. The mass and distribution of micronekton reflects broad-scale patterns in the structure and function of the ocean, as well as the dynamics of marine ecosystems. The mapping complements established observing systems such as physical sampling of ocean currents, surveys of ocean chemistry and biology (plankton and zooplankton), and electronic tagging and tracking of large marine fish and mammals. The combined information greatly enhances the capacity of marine scientists to monitor shifts in food availability over time, assisting in the monitoring and modelling of oceanography, ecosystems, fisheries and climate change, and in understanding the behaviour of top predators. Data Collection: All BASOOP vessels collect 38 kHz acoustic data from either Simrad EK60, ES60 (split beam) or ES70 echosounders. In all cases the 38 kHz echosounders are connected to Simrad ES38B transducers. This is a narrow-beam (7 o) ceramic transducer with good long term stability and manufacturer supplied calibration parameters. Research vessel Southern Surveyor also collects concurrent acoustic data at 12 and 120 kHz. The research vessel Aurora Australis collects concurrent acoustic data at 12, 120 and 200 kHz. The primary data-type recorded from the vessel-mounted echosounder systems is georeferenced calibrated water column volume backscatter, Sv [dB re 1 m-1], (Maclennan et al. 2002) . The raw acoustic data is post processed to (i) identify on-transit data and prioritise processing, (ii) apply calibration offsets, (iii) apply semi-automated filters to identify and reject bad data and (iv) create output stored in netCDF format, mean echointegrated Sv for cells of 1000 m distance and 10 m height. A full metadata record is also stored in each netCDF file. Reference: *Maclennan, D.N., Fernandes, P.G., and Dalen, J. 2002. A consistent approach to definitions and symbols in fisheries acoustics. ICES Journal of Marine Science: Journal du Conseil 59(2): 365.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>Integrated Marine Observing System (IMOS). IMOS is supported by the Australian Government through the National Collaborative Research Infrastructure Strategy (NCRIS) and the Super Science Initiative (SSI).</gco:CharacterString>
+      </gmd:credit>
+      <gmd:credit>
+        <gco:CharacterString>Funded by the National Collaborative Research Infrastructure Strategy (NCRIS) and the Super Science Initiative (SSI).</gco:CharacterString>
+      </gmd:credit>
+      <gmd:credit>
+        <gco:CharacterString>CSIRO Oceans &amp; Atmosphere Flagship</gco:CharacterString>
+      </gmd:credit>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Kloser, Rudy</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>CSIRO Oceans &amp; Atmosphere Flagship - Hobart</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Chief Scientist</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>GPO Box 1538</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Hobart</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Tasmania</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>7005</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>Australia</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>Rudy.Kloser@csiro.au</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Downie, Ryan</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>CSIRO Oceans &amp; Atmosphere Flagship - Hobart</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>GPO Box 1538</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Hobart</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>Tasmania</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>7005</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>Australia</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>Ryan.Downie@csiro.au</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>SOOP large.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>large_thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>SOOP small_s.png</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>png</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Oceans | Marine Biology | Fish</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Oceans | Ocean Acoustics | Acoustic Scattering</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Agriculture | Agricultural Aquatic Sciences | Fisheries</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NASA/Global Change Master Directory Earth Science Keywords Version 5.3.8</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>GCMD</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2006-01-01</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>National Aeronautics and Space Administration (NASA)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>IMOS Sub-Facility | SOOP-BA | Bio-Acoustic</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>IMOS Platform | ZMTW | Janas</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>IMOS Platform | ZMRE | Rehua</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>IMOS Platform | VLHJ | Southern Surveyor</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>IMOS Platform | VHGI | Southern Champion</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>IMOS Platform | VHLU | Austral Leader II</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Ocean Biomass</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Micronekton</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>IMOS Keywords Thesaurus</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>IMOS</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-10-30</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Integrated Marine Observing System (IMOS)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Acoustic Equipment/Echo Sounders</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Marine Community Profile of ISO19115 v1.4 Collection Methods Vocabulary (Annex C.1.3)</gco:CharacterString>
+              </gmd:title>
+              <gmd:alternateTitle>
+                <gco:CharacterString>MCP</gco:CharacterString>
+              </gmd:alternateTitle>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-10-30</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Australian Ocean Data Centre Joint Facility (AODCJF)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Global / Oceans | Southern Ocean</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Global / Oceans | Indian Ocean</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Global / Oceans | Pacific Ocean</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Marine Features (Australia) | Great Australian Bight, SA/WA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Marine Features (Australia) | Bass Strait, TAS/VIC</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Regional Seas | Coral Sea</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Regional Seas | Tasman Sea</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>water-bodies (internal use)</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:DateTime>2014-12-01T15:19:00</gco:DateTime>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://catalogue-123.aodn.org.au/geonetwork/srv/en/thesaurus.download?ref=local.theme.water-bodies">geonetwork.thesaurus.local.theme.water-bodies</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Countries | Australia</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>States, Territories (Australia) | Western Australia</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>States, Territories (Australia) | South Australia</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>States, Territories (Australia) | Tasmania</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Countries | New Zealand</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>States, Territories (Australia) | New South Wales</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>States, Territories (Australia) | Queensland</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Countries | Mauritius</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Countries | Fiji</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Marine Features | Hawaiin Islands, USA</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Offshore Islands (Australia) | Macquarie Island</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>land-masses (internal use)</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:DateTime>2014-12-01T15:19:00</gco:DateTime>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gmx:Anchor xlink:href="https://catalogue-123.aodn.org.au/geonetwork/srv/en/thesaurus.download?ref=local.theme.land-masses">geonetwork.thesaurus.local.theme.land-masses</gmx:Anchor>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints xmlns:mcp_1="http://bluenet3.antcrc.utas.edu.au/mcp" mcp_1:commonsType="Creative Commons" />
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Data, products and services from IMOS are provided "as is" without any warranty as to fitness for a particular purpose.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://schemas.aodn.org.au/mcp-2.0/schema/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:Polygon srsName="CRS:84">
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">140 -42 138 -42 138 -41 136 -41 136 -40 133 -40 133 -39 130 -39 130 -38 128 -38 128 -37 125 -37 125 -36 122 -36 122 -35 124 -35 124 -34 127 -34 127 -35 133 -35 133 -36 129 -36 129 -37 131 -37 131 -38 134 -38 134 -39 137 -39 137 -38 136 -38 136 -37 134 -37 134 -36 137 -36 137 -37 138 -37 138 -38 139 -38 139 -39 141 -39 141 -40 142 -40 142 -41 144 -41 144 -42 145 -42 145 -43 147 -43 147 -42 149 -42 149 -41 146 -41 146 -40 151 -40 151 -39 152 -39 152 -37 153 -37 153 -36 154 -36 154 -35 155 -35 155 -34 156 -34 156 -33 157 -33 157 -29 156 -29 156 -28 155 -28 155 -30 154 -30 154 -31 153 -31 153 -25 154 -25 154 -24 157 -24 157 -19 156 -19 156 -15 155 -15 155 -14 157 -14 157 -13 160 -13 160 -12 162 -12 162 -11 166 -11 166 -10 175 -10 175 -9 180 -9 180 -10 176 -10 176 -11 167 -11 167 -12 163 -12 163 -13 161 -13 161 -14 158 -14 158 -15 157 -15 157 -18 158 -18 158 -24 161 -24 161 -23 167 -23 167 -22 170 -22 170 -21 171 -21 171 -20 173 -20 173 -19 175 -19 175 -18 177 -18 177 -20 175 -20 175 -21 174 -21 174 -22 173 -22 173 -23 172 -23 172 -24 171 -24 171 -25 169 -25 169 -26 168 -26 168 -27 166 -27 166 -28 165 -28 165 -29 164 -29 164 -30 165 -30 165 -34 164 -34 164 -38 163 -38 163 -39 165 -39 165 -38 167 -38 167 -37 168 -37 168 -36 169 -36 169 -32 170 -32 170 -30 171 -30 171 -28 172 -28 172 -26 173 -26 173 -24 174 -24 174 -23 179 -23 179 -24 175 -24 175 -25 174 -25 174 -27 173 -27 173 -29 172 -29 172 -31 171 -31 171 -33 170 -33 170 -35 171 -35 171 -34 173 -34 173 -35 172 -35 172 -36 171 -36 171 -37 172 -37 172 -38 173 -38 173 -39 174 -39 174 -41 171 -41 171 -42 165 -42 165 -43 162 -43 162 -44 161 -44 161 -47 159 -47 159 -46 160 -46 160 -43 156 -43 156 -44 150 -44 150 -45 152 -45 152 -46 153 -46 153 -47 155 -47 155 -48 156 -48 156 -49 158 -49 158 -50 159 -50 159 -51 163 -51 163 -50 164 -50 164 -49 166 -49 166 -48 168 -48 168 -50 167 -50 167 -51 165 -51 165 -52 164 -52 164 -53 163 -53 163 -54 161 -54 161 -55 160 -55 160 -56 158 -56 158 -55 157 -55 157 -54 156 -54 156 -53 155 -53 155 -52 154 -52 154 -50 153 -50 153 -49 151 -49 151 -47 150 -47 150 -46 149 -46 149 -45 148 -45 148 -44 144 -44 144 -43 141 -43 141 -42 140 -42</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">137 -39 137 -40 138 -40 138 -39 137 -39</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">164 -30 163 -30 163 -31 160 -31 160 -32 159 -32 159 -36 160 -36 160 -38 161 -38 161 -39 162 -39 162 -37 163 -37 163 -33 164 -33 164 -30</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">156 -50 156 -51 157 -51 157 -50 156 -50</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">157 -51 157 -52 158 -52 158 -51 157 -51</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">158 -26 158 -28 161 -28 161 -29 163 -29 163 -28 164 -28 164 -27 165 -27 165 -26 167 -26 167 -25 168 -25 168 -24 162 -24 162 -25 158 -25 158 -26</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">161 -29 160 -29 160 -30 161 -30 161 -29</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">168 -24 170 -24 170 -23 168 -23 168 -24</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">156 -35 156 -36 155 -36 155 -37 154 -37 154 -38 153 -38 153 -40 160 -40 160 -39 159 -39 159 -37 158 -37 158 -34 157 -34 157 -35 156 -35</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">139 -41 140 -41 140 -40 139 -40 139 -41</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">159 -52 159 -53 160 -53 160 -52 159 -52</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">170 -40 172 -40 172 -39 171 -39 171 -38 170 -38 170 -37 169 -37 169 -38 168 -38 168 -39 166 -39 166 -40 170 -40</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">154 -26 154 -27 157 -27 157 -25 155 -25 155 -26 154 -26</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">158 -30 158 -31 159 -31 159 -29 158 -29 158 -30</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                </gml:Polygon>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:Polygon srsName="CRS:84">
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">55 -35 54 -35 54 -34 53 -34 53 -37 51 -37 51 -38 50 -38 50 -36 49 -36 49 -34 50 -34 50 -32 51 -32 51 -30 50 -30 50 -31 49 -31 49 -32 48 -32 48 -33 46 -33 46 -34 44 -34 44 -33 45 -33 45 -32 46 -32 46 -31 47 -31 47 -30 46 -30 46 -29 47 -29 47 -28 48 -28 48 -27 50 -27 50 -26 51 -26 51 -25 52 -25 52 -24 53 -24 53 -23 54 -23 54 -22 55 -22 55 -21 56 -21 56 -20 60 -20 60 -21 64 -21 64 -22 68 -22 68 -23 74 -23 74 -24 81 -24 81 -25 88 -25 88 -26 86 -26 86 -27 85 -27 85 -28 86 -28 86 -29 88 -29 88 -30 87 -30 87 -31 86 -31 86 -30 81 -30 81 -29 80 -29 80 -30 78 -30 78 -31 75 -31 75 -32 72 -32 72 -34 73 -34 73 -35 74 -35 74 -36 76 -36 76 -38 78 -38 78 -39 79 -39 79 -43 78 -43 78 -40 77 -40 77 -39 75 -39 75 -37 73 -37 73 -36 72 -36 72 -35 71 -35 71 -33 68 -33 68 -34 69 -34 69 -35 70 -35 70 -37 71 -37 71 -38 72 -38 72 -39 73 -39 73 -40 74 -40 74 -42 75 -42 75 -43 76 -43 76 -44 77 -44 77 -49 78 -49 78 -52 77 -52 77 -51 76 -51 76 -52 75 -52 75 -53 73 -53 73 -51 72 -51 72 -50 71 -50 71 -48 70 -48 70 -47 69 -47 69 -46 68 -46 68 -44 67 -44 67 -48 66 -48 66 -47 65 -47 65 -44 64 -44 64 -42 63 -42 63 -39 62 -39 62 -36 61 -36 61 -35 59 -35 59 -36 55 -36 55 -35</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">59 -34 61 -34 61 -33 60 -33 60 -30 59 -30 59 -27 58 -27 58 -24 57 -24 57 -29 56 -29 56 -32 55 -32 55 -35 58 -35 58 -34 59 -34</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">50 -36 51 -36 51 -35 50 -35 50 -36</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">51 -30 52 -30 52 -28 51 -28 51 -30</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">52 -28 53 -28 53 -27 52 -27 52 -28</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">67 -44 67 -42 66 -42 66 -44 67 -44</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">66 -42 66 -40 65 -40 65 -42 66 -42</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">72 -42 73 -42 73 -41 72 -41 72 -42</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">72 -41 72 -40 71 -40 71 -41 72 -41</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">72 -48 72 -49 73 -49 73 -48 72 -48</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">73 -49 73 -50 74 -50 74 -49 73 -49</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">71 -26 68 -26 68 -25 65 -25 65 -26 67 -26 67 -27 68 -27 68 -28 70 -28 70 -29 71 -29 71 -30 72 -30 72 -31 74 -31 74 -30 77 -30 77 -28 74 -28 74 -27 71 -27 71 -26</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">65 -25 65 -24 64 -24 64 -25 65 -25</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">61 -25 62 -25 62 -24 61 -24 61 -25</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">62 -25 62 -26 63 -26 63 -25 62 -25</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">63 -26 63 -28 64 -28 64 -29 65 -29 65 -30 66 -30 66 -31 67 -31 67 -32 71 -32 71 -31 70 -31 70 -30 69 -30 69 -29 67 -29 67 -28 66 -28 66 -27 64 -27 64 -26 63 -26</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">68 -42 68 -43 69 -43 69 -42 68 -42</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">75 -47 76 -47 76 -45 75 -45 75 -47</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">70 -45 70 -46 71 -46 71 -45 70 -45</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">64 -38 64 -39 65 -39 65 -38 64 -38</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">63 -36 63 -37 64 -37 64 -36 63 -36</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">68 -36 68 -37 69 -37 69 -36 68 -36</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">51 -34 52 -34 52 -33 51 -33 51 -34</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">63 -34 63 -33 62 -33 62 -34 63 -34</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">84 -26 80 -26 80 -25 75 -25 75 -26 79 -26 79 -27 84 -27 84 -26</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">61 -31 61 -32 62 -32 62 -31 61 -31</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">72 -25 73 -25 73 -24 71 -24 71 -25 72 -25</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                </gml:Polygon>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:Polygon srsName="CRS:84">
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">153 -23 153 -22 152 -22 152 -17 153 -17 153 -19 154 -19 154 -23 153 -23</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Polygon>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:Polygon srsName="CRS:84">
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">-158 21 -158 22 -159 22 -159 30 -160 30 -160 31 -162 31 -162 36 -159 36 -159 37 -157 37 -157 21 -158 21</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior>
+                  <gml:interior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">-160 32 -159 32 -159 35 -160 35 -160 32</gml:posList>
+                    </gml:LinearRing>
+                  </gml:interior>
+                </gml:Polygon>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:Polygon srsName="CRS:84">
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">60 -48 60 -47 57 -47 57 -46 55 -46 55 -45 53 -45 53 -44 51 -44 51 -43 48 -43 48 -42 46 -42 46 -41 45 -41 45 -40 47 -40 47 -41 49 -41 49 -42 52 -42 52 -43 54 -43 54 -44 56 -44 56 -45 58 -45 58 -46 61 -46 61 -47 63 -47 63 -48 65 -48 65 -49 68 -49 68 -50 71 -50 71 -51 72 -51 72 -52 70 -52 70 -51 67 -51 67 -50 64 -50 64 -49 62 -49 62 -48 60 -48</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Polygon>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+          <gmd:geographicElement>
+            <gmd:EX_BoundingPolygon>
+              <gmd:polygon>
+                <gml:Polygon srsName="CRS:84">
+                  <gml:exterior>
+                    <gml:LinearRing>
+                      <gml:posList srsDimension="2">172 -51 172 -49 171 -49 171 -46 172 -46 172 -48 173 -48 173 -50 174 -50 174 -52 175 -52 175 -54 176 -54 176 -56 177 -56 177 -58 178 -58 178 -60 179 -60 179 -63 178 -63 178 -61 177 -61 177 -59 176 -59 176 -57 175 -57 175 -55 174 -55 174 -53 173 -53 173 -51 172 -51</gml:posList>
+                    </gml:LinearRing>
+                  </gml:exterior>
+                </gml:Polygon>
+              </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1555849e576a1050910">
+                  <gml:begin>
+                    <gml:TimeInstant gml:id="d1555849e578a1050910">
+                      <gml:timePosition>2009-08-13</gml:timePosition>
+                    </gml:TimeInstant>
+                  </gml:begin>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:name>
+          <gmd:version gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://catalogue-123.aodn.org.au:443/geonetwork/srv/en/metadata.show?uuid=8edf509b-1481-48fd-b9c5-b95b42247f82</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--metadata-URL</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:description>
+                <gco:CharacterString>Point of truth URL of this metadata record</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.csiro.au/science/Commercial-fishers-and-ocean-observation--ci_pageNo-1.html</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>CSIRO webpage: "Sounding life in the oceans"</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://imos.org.au/basoop.html</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>IMOS webpage: "Ship of Opportunity Bio-Acoustic"</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://geoserver-123.aodn.org.au/geoserver/wms</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.1.1-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="text/html">imos:soop_ba_trajectory_map</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>SOOP Bio Acoustic</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://catalogue-123.aodn.org.au:443/geonetwork/srv/en/file.disclaimer?uuid=8edf509b-1481-48fd-b9c5-b95b42247f82&amp;fname=SOOP_BA_data_collection_and_processing_v1_0.docx&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--downloadother</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="application/zip">SOOP_BA_data_collection_and_processing_v1_0.docx</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Detailed information on SOOP BA data collection, data processing and data management.</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://catalogue-123.aodn.org.au:443/geonetwork/srv/en/file.disclaimer?uuid=8edf509b-1481-48fd-b9c5-b95b42247f82&amp;fname=plugin-SOOP-BA_NetCDF_manual_v1.1.pdf&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--downloadother</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="application/pdf">plugin-SOOP-BA_NetCDF_manual_v1.1.pdf</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>This document describes the data files produced by the SOOP-BA project and made available through IMOS, including via the ocean portal.</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://catalogue-123.aodn.org.au:443/geonetwork/srv/en/file.disclaimer?uuid=8edf509b-1481-48fd-b9c5-b95b42247f82&amp;fname=Reducing_error_in_open-ocean_acoustic_measurements1_00.pdf&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--downloadother</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="application/pdf">Reducing_error_in_open-ocean_acoustic_measurements1_00.pdf</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Reducing error in open ocean acoustic measurements document.</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://catalogue-123.aodn.org.au:443/geonetwork/srv/en/file.disclaimer?uuid=8edf509b-1481-48fd-b9c5-b95b42247f82&amp;fname=standardised_procedures.pdf&amp;access=private</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol gco:nilReason="missing">
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--downloadother</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gmx:MimeFileType type="application/pdf">standardised_procedures.pdf</gmx:MimeFileType>
+              </gmd:name>
+              <gmd:description gco:nilReason="missing">
+                <gco:CharacterString>Standardised procedures document</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://icesjms.oxfordjournals.org/content/59/2/365.full.pdf</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Paper which discusses primary and derived measurements of acoustics.</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://data.aodn.org.au/IMOS/public/SOOP/BA/matlab_script/viz_sv.m</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Matlab code</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://thredds.aodn.org.au/thredds/catalog/IMOS/SOOP/SOOP-BA/catalog.html</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Data available through the IMOS Thredds server</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://geoserver-123.aodn.org.au/geoserver/ows</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>IMOS:AGGREGATION--bodaac</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>soop_ba_trajectory_map#url</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>The BODAAC is a WFS service that returns a list of OpenDAP URLs matching a query.</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://help.aodn.org.au/help/?q=node/69</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>BODAAC help documentation</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+</gmd:MD_Metadata>
